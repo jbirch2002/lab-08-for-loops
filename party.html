@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party</title>
+</head>
+<body>
+
+<script>
+    console.log("Let’s party...");
+    alert("Let's party...")
+
+    let user_input = prompt("How long 'til the party?");
+    let countdown_start = parseInt(user_input);
+
+    if (countdown_start <= 0 || countdown_start !== countdown_start)
+    {
+        console.log("PARTY NOW!!!");
+        alert("PARTY NOW!!!");
+    } 
+
+    else 
+    {
+        for (let i = countdown_start; i >= 1; i--)
+        {
+            console.log(i);
+            alert(i);
+        }
+        console.log("PARTY TIME!!!");
+        alert("PARTY TIME!!!")
+    }
+
+</script>
+
+</body>
+</html>
