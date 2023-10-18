@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Largest</title>
+</head>
+<body>
+
+<script>
+    let largest_number = 0;
+
+    for (let i = 0; i < 4; i++) 
+    {
+        let user_input = prompt("Number please....");
+        let number = parseInt(user_input);
+
+        if (number > largest_number)
+        {
+            largest_number = number;
+        }
+    }
+
+    console.log("The largest number is " + largest_number);
+    alert("The largest number is " + largest_number);
+</script>
+
+</body>
+</html>
