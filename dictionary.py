@@ -11,10 +11,10 @@ myData = {
 keys_list = []
 values_list = []
 
-for key in myData:
-    print("key:", key, ", value:", myData[key])
+for key, value in myData.items():
+    print("key:", key, ", value:", value)
     keys_list.append(key)
-    values_list.append(myData[key])
+    values_list.append(value)
 
 print("  ALL KEYS:", keys_list)
 print("  ALL VALUES:", values_list)
